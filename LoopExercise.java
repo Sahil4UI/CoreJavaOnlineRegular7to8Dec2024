@@ -73,15 +73,94 @@ public class LoopExercise {
 //		****
 //		*****
 //		no of columns : 5 , rows = 5
-		for (int row=1;row<=5;row++)
-		{
-//			column loop yaha star print krega
-			for (int col=1;col<=row;col++)
-			{
-				System.out.print("*");
-			}
-			System.out.println();
-		}
+//		for (int row=1;row<=5;row++)
+//		{
+////			column loop yaha star print krega
+//			for (int col=1;col<=row;col++)
+//			{
+//				System.out.print("*");
+//			}
+//			System.out.println();
+//		}
 		
+//		    *
+//		   **
+//		  ***
+//		 ****
+//		*****
+//		for (int row=1;row<=5;row++)
+//			{
+//			for (int k=5-row;k>=1;k--)
+//			{
+//				System.out.print(" ");
+//			}
+////				column loop yaha star print krega
+//				for (int col=1;col<=row;col++)
+//				{
+//					
+//					System.out.print("*");
+//				}
+//				System.out.println();
+//			}
+//		 ooooooooooooooooo                                                       
+//		 ooooooooooooooooo                                                       
+//		 ooooooooooooooooo                                                       
+//		 oooo                                                                    
+//		 oooo                                                                    
+//		 oooo                                                                    
+//		 ooooooooooooooooo                                                       
+//		 ooooooooooooooooo                                                       
+//		 ooooooooooooooooo                                                       
+//		              oooo                                                       
+//		              oooo                                                       
+//		              oooo                                                       
+//		 ooooooooooooooooo                                                       
+//		 ooooooooooooooooo                                                       
+//		 ooooooooooooooooo 
+		
+//		for (int i=1;i<=15;i++)
+//		{
+//			for(int j=1;j<=17;j++)
+//			{
+//				if (i==1 || i==2 || i==3 || i==7 || i==8 || i==9 || i==13 || i==14 || i==15)
+//				{
+//					System.out.print("o");
+//				}
+//				
+//				else if ((i==4 || i==5 || i==6 )&& j<=4 )
+//				{
+//					System.out.print("o");
+//				}
+//				else if ((i==10 || i==11|| i==12 )&& j>=14 )
+//				{
+//					System.out.print("o");
+//				}
+//				else {
+//					System.out.print(" ");
+//				}
+//			}
+//			System.out.println();
+//		}
+		
+		
+//		While Loop
+//		int x = 1;
+//		while (x<=10)
+//		{
+//			System.out.println(x);
+//			x++;
+//		}
+		
+//		while (true)
+//		{
+//			System.out.println("hello");
+//		}
+		
+//		int x = 1;
+//		do
+//		{
+//			System.out.println(x);
+//			x++;
+//		}while (x<=10);
 	}
 }

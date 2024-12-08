@@ -63,7 +63,8 @@ public class Loops {
 //			System.out.println(i);
 //		}
 		
-//		Write a program to print first 10 numbers of fibonacci Series.
+//		Write a program to print first 10 numbers of fibonacci 
+//		Series.
 //		0 1 1 2 3 5 8.......................
 		
 		int first = 0;
@@ -74,8 +75,7 @@ public class Loops {
 			int third = first+second;
 			System.out.print(third+" ");
 			first = second;
-			second = third;
-			
+			second = third;	
 		}
 	}
 
