@@ -55,31 +55,52 @@ public class StringDemo1 {
 //		Write A Program to find occurence of each character
 //		in a String
 		
-		String x = "aabbccddaabbeeccdff";
-		String res = "";
-		for (char i:x.toCharArray())
-		{
-			if (!res.contains(""+i))
-			{
-				res+=i;
-			}
-		}
-		System.out.println(res);
+	// 	String x = "aabbccddaabbeeccdff";
+	// 	String res = "";
+	// 	for (char i:x.toCharArray())
+	// 	{
+	// 		if (!res.contains(""+i))
+	// 		{
+	// 			res+=i;
+	// 		}
+	// 	}
+	// 	System.out.println(res);
 		
-		for (int i=0;i<res.length();i++)
-		{
-			char temp = res.charAt(i);
-			int count = 0;
-			for (int j=0;j<x.length();j++)
-			{
-				if (temp == x.charAt(j))
-				{
-					count++;
-				}
-			}
-			System.out.println("count of "+temp+" is "+count);
-		}
-		
+	// 	for (int i=0;i<res.length();i++)
+	// 	{
+	// 		char temp = res.charAt(i);
+	// 		int count = 0;
+	// 		for (int j=0;j<x.length();j++)
+	// 		{
+	// 			if (temp == x.charAt(j))
+	// 			{
+	// 				count++;
+	// 			}
+	// 		}
+	// 		System.out.println("count of "+temp+" is "+count);
+	// 	}
+
+	//OR
+
+	String s = "aabbccddaabbeeccdff";
+	String res = "";
+	
+	int arr[] = new int[26];
+	
+	for(char i : s.toCharArray()){
+		arr[i - 'a']++;
+	}
+	
+	for(int i=0; i<26; i++){
+	if (arr[i]>0){
+		res+=""+(char)(i+'a');
+		System.out.println("count of "+(char)(i+'a')+" is "+arr[i]);
+	}
+	}
+	
+	System.out.println(res);
+
+
 	}
 
 }
