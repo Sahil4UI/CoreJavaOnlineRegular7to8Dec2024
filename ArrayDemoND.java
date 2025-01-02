@@ -40,6 +40,10 @@ public class ArrayDemoND {
 //
 //			public static void main(String[] args) {
 //				// TODO Auto-generated method stub
+			
+//		}
+		
+		
 				for(int i=1;i<=15;i++){
 				    for(int j=1;j<=17;j++){
 				        if(i==1||i==2||i==3||i==7||i==8||i==9||i==13||i==14||i==15)
@@ -53,14 +57,15 @@ public class ArrayDemoND {
 				            System.out.print("0");
 				    }
 				    else{
-				        System.out.print("");
+				        System.out.print(" ");
 		    	    }
-				    System.out.println();
+				   
 			}
-		  }
-		 }
-//		}
+				    System.out.println();
 
+		  }
+		 
+	}
 			
 	}
 	
